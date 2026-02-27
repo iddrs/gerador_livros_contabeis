@@ -1,0 +1,23 @@
+{
+    "name": "everton/gerador_livros_contabeis",
+    "autoload": {
+        "psr-4": {
+            "Livros\\": "src/"
+        },
+        "files": [
+            "functions.php",
+            "fpdf.php",
+            "mc_table.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Everton da Rosa",
+            "email": "everton3x@gmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2",
+        "twig/twig": "^3.23"
+    }
+}
